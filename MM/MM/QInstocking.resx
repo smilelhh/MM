@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="mNumDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>设备代码</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mNumDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="mNameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>设备名称</value>
+  </data>
+  <data name="mNameDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="mCategoryDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>设备类型</value>
+  </data>
+  <data name="mCategoryDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="mPriceDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>设备价格</value>
+  </data>
+  <data name="mPriceDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="iSDateDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>入库日期</value>
+  </data>
+  <data name="iSDateDataGridViewTextBoxColumn.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <metadata name="tInStockingBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>287, 17</value>
+  </metadata>
+  <metadata name="bYMMDataSetQInstockDategridView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgQIn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 63</value>
+  </data>
+  <data name="dgQIn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>683, 192</value>
+  </data>
+  <data name="dgQIn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgQIn.Name" xml:space="preserve">
+    <value>dgQIn</value>
+  </data>
+  <data name="&gt;&gt;dgQIn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgQIn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgQIn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btQuery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 22</value>
+  </data>
+  <data name="btQuery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 32</value>
+  </data>
+  <data name="btQuery.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btQuery.Text" xml:space="preserve">
+    <value>查 询</value>
+  </data>
+  <data name="&gt;&gt;btQuery.Name" xml:space="preserve">
+    <value>btQuery</value>
+  </data>
+  <data name="&gt;&gt;btQuery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btQuery.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btQuery.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbMName.Items" xml:space="preserve">
+    <value>电脑</value>
+  </data>
+  <data name="cbMName.Items1" xml:space="preserve">
+    <value>打印机</value>
+  </data>
+  <data name="cbMName.Items2" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="cbMName.Items3" xml:space="preserve">
+    <value>桌子</value>
+  </data>
+  <data name="cbMName.Items4" xml:space="preserve">
+    <value>椅子</value>
+  </data>
+  <data name="cbMName.Items5" xml:space="preserve">
+    <value>柜子</value>
+  </data>
+  <data name="cbMName.Items6" xml:space="preserve">
+    <value>饮水机</value>
+  </data>
+  <data name="cbMName.Items7" xml:space="preserve">
+    <value>空调</value>
+  </data>
+  <data name="cbMName.Items8" xml:space="preserve">
+    <value>扫描仪</value>
+  </data>
+  <data name="cbMName.Items9" xml:space="preserve">
+    <value>传真机</value>
+  </data>
+  <data name="cbMName.Items10" xml:space="preserve">
+    <value>检测仪</value>
+  </data>
+  <data name="cbMName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 29</value>
+  </data>
+  <data name="cbMName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="cbMName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cbMName.Name" xml:space="preserve">
+    <value>cbMName</value>
+  </data>
+  <data name="&gt;&gt;cbMName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbMName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbMName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Qdep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Qdep.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Qdep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Qdep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 30</value>
+  </data>
+  <data name="Qdep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 14</value>
+  </data>
+  <data name="Qdep.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Qdep.Text" xml:space="preserve">
+    <value>设备名称：</value>
+  </data>
+  <data name="&gt;&gt;Qdep.Name" xml:space="preserve">
+    <value>Qdep</value>
+  </data>
+  <data name="&gt;&gt;Qdep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Qdep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Qdep.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="output.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 286</value>
+  </data>
+  <data name="output.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 32</value>
+  </data>
+  <data name="output.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="output.Text" xml:space="preserve">
+    <value>导 出</value>
+  </data>
+  <data name="&gt;&gt;output.Name" xml:space="preserve">
+    <value>output</value>
+  </data>
+  <data name="&gt;&gt;output.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;output.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;output.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="quit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="quit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 286</value>
+  </data>
+  <data name="quit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 32</value>
+  </data>
+  <data name="quit.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="quit.Text" xml:space="preserve">
+    <value>退 出</value>
+  </data>
+  <data name="&gt;&gt;quit.Name" xml:space="preserve">
+    <value>quit</value>
+  </data>
+  <data name="&gt;&gt;quit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;quit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="t_InStockingTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>492, 17</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 294</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 14</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>当前库存资产总计：</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="totalPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="totalPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="totalPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 294</value>
+  </data>
+  <data name="totalPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="totalPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="totalPrice.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;totalPrice.Name" xml:space="preserve">
+    <value>totalPrice</value>
+  </data>
+  <data name="&gt;&gt;totalPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;totalPrice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>687, 344</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        +3/+//1//v/8f/8AA/////////////////8=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>当前库存</value>
+  </data>
+  <data name="&gt;&gt;mNumDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mNumDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mNumDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mNameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mNameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mNameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mCategoryDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mCategoryDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mCategoryDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mPriceDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>mPriceDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;mPriceDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;iSDateDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>iSDateDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;iSDateDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tInStockingBindingSource.Name" xml:space="preserve">
+    <value>tInStockingBindingSource</value>
+  </data>
+  <data name="&gt;&gt;tInStockingBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bYMMDataSetQInstockDategridView.Name" xml:space="preserve">
+    <value>bYMMDataSetQInstockDategridView</value>
+  </data>
+  <data name="&gt;&gt;bYMMDataSetQInstockDategridView.Type" xml:space="preserve">
+    <value>MM.BYMMDataSetQInstockDategridView, BYMMDataSetQInstockDategridView.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;t_InStockingTableAdapter.Name" xml:space="preserve">
+    <value>t_InStockingTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;t_InStockingTableAdapter.Type" xml:space="preserve">
+    <value>MM.BYMMDataSetQInstockDategridViewTableAdapters.T_InStockingTableAdapter, BYMMDataSetQInstockDategridView.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>QInstocking</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
